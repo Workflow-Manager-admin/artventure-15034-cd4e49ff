@@ -145,22 +145,30 @@ a:hover, .link:hover {
 }
 
 .btn {
-  background-color: var(--kavia-orange);
-  color: white;
+  background: var(--accent);
+  color: #23170d;
   border: none;
-  border-radius: 4px;
-  padding: 10px 20px;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 10px 0 rgba(255,179,71,0.09);
+  padding: 10px 24px;
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: background 0.18s, color 0.16s, box-shadow 0.16s;
+  outline: none;
+  margin: 0.25rem 0;
 }
-
-.btn:hover {
-  background-color: #FF8B4D;
+.btn:focus {
+  box-shadow: 0 0 0 3px rgba(255, 179, 71, 0.21);
+  outline: none;
 }
-
+.btn:hover, .btn:active {
+  background: var(--accent-hover);
+  color: #1b1411;
+  box-shadow: 0 3px 15px 0 rgba(255,179,71,0.11);
+}
 .btn-large {
-  padding: 12px 24px;
+  padding: 13px 28px;
   font-size: 1.1rem;
+  border-radius: calc(var(--radius) + 4px);
 }
