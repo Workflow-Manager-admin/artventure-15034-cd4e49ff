@@ -53,17 +53,21 @@ body {
 }
 
 .navbar {
-  background-color: var(--kavia-dark);
+  /* Over gradient, semi-transparent card look for navbar */
+  background: rgba(24,18,36,0.84);
   padding: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1.5px solid var(--border-color);
   position: fixed;
   top: 0;
-  width: 100%;
+  left: 0;
+  width: 100vw;
   box-sizing: border-box;
   z-index: 100;
+  backdrop-filter: blur(5px) saturate(130%);
+  -webkit-backdrop-filter: blur(5px) saturate(130%);
 }
 
 .logo {
