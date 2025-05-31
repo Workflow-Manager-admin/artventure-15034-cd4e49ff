@@ -1,0 +1,63 @@
+.av-btn {
+  font-family: inherit;
+  font-weight: 600;
+  border-radius: 0.75em;
+  padding: 0.7em 1.75em;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s, box-shadow 0.12s, color 0.18s;
+  font-size: 1em;
+  min-width: 2.7em;
+  margin: 0.25em 0.08em;
+  box-shadow: 0 1.5px 5px 0 rgba(0,0,0,0.1);
+  letter-spacing: 0.02em;
+  user-select: none;
+  display: inline-block;
+}
+
+.av-btn-primary {
+  background: linear-gradient(90deg, var(--accent, #ffb347) 0%, #ffcb97 100%);
+  color: #3d2101;
+}
+
+.av-btn-primary:hover:not(:disabled), .av-btn-primary:focus-visible {
+  background: linear-gradient(90deg, #ffb347 0%, #ffd59a 100%);
+  box-shadow: 0 3px 8px 0 rgba(255,179,71,0.12);
+}
+
+.av-btn-secondary {
+  background: rgba(255,255,255,0.04);
+  color: var(--accent, #ffb347);
+  border: 1.5px solid var(--accent, #ffb347);
+}
+
+.av-btn-secondary:hover:not(:disabled), .av-btn-secondary:focus-visible {
+  background: rgba(255,179,71,0.08);
+}
+
+.av-btn-outline {
+  background: transparent !important;
+  border: 1.5px solid var(--accent, #ffb347);
+  color: var(--accent, #ffb347);
+}
+
+.av-btn:disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.av-btn-large {
+  padding: 1em 2.5em;
+  font-size: 1.11em;
+}
+
+.av-btn-medium {
+  padding: 0.7em 1.75em;
+  font-size: 1em;
+}
+
+.av-btn-small {
+  padding: 0.5em 1.2em;
+  font-size: 0.93em;
+}
