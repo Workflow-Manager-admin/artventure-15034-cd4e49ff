@@ -83,11 +83,21 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1040px;
   margin: 0 auto;
   padding: 0 24px;
   width: 100%;
   box-sizing: border-box;
+}
+
+.card {
+  background: var(--card-bg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--card-shadow);
+  margin: 24px auto;
+  padding: 28px 28px 24px 28px;
+  transition: box-shadow var(--transition), background 0.2s;
+  border: 1px solid var(--border-color);
 }
 
 .hero {
