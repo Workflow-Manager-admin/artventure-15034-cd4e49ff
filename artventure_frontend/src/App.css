@@ -1,10 +1,36 @@
+/* THEME: ArtVenture Dark and Light Modes */
 :root {
-  --kavia-orange: #E87A41;
-  --kavia-dark: #1A1A1A;
+  /* Main ArtVenture Palette */
+  --primary: #000000;
+  --secondary: linear-gradient(135deg, #000000 0%, #3a1c71 100%);
+  --accent: #ffb347;
+  --accent-hover: #ffc968;
+
+  /* Typography and Surfaces */
+  --background: #120924;
+  --background-gradient: linear-gradient(135deg, #000000 0%, #3a1c71 100%);
+  --card-bg: #191121cc;
+  --card-shadow: 0 2px 14px 0 rgba(40,16,64,0.14);
   --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
+  --text-secondary: rgba(255,255,255,0.7);
+  --border-color: rgba(255,255,255, 0.08);
+
+  /* For transitions, border radii, and spacing */
+  --radius-lg: 18px;
+  --radius: 8px;
+  --transition: 0.21s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
+
+/* Light Theme Support */
+[data-theme="light"] {
+  --background: #f3f1f7;
+  --background-gradient: linear-gradient(135deg, #fff 0%, #ffecd2 100%);
+  --card-bg: #fffdfa;
+  --text-color: #120924;
+  --text-secondary: #594d68;
+  --border-color: rgba(20,20,40,0.13);
+}
+
 
 body {
   margin: 0;
