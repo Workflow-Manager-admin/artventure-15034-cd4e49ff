@@ -1,0 +1,11 @@
+.av-sidebar {
+  background: rgba(20,20,32,0.42);
+  border-right: 1.5px solid var(--border-color, #37296433);
+  border-left: 4px solid var(--accent, #ffb347);
+  color: var(--text-secondary, #fff);
+  padding: 2em 1.2em 2em 1.5em;
+  min-width: 200px;
+  max-width: 300px;
+  box-shadow: 1px 0 16px 0 rgba(0,0,0,0.10);
+  font-size: 1.08em;
+}
