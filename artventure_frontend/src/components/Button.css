@@ -16,6 +16,7 @@
   display: inline-block;
 }
 
+/* Button primary accent styles */
 .av-btn-primary {
   background: linear-gradient(90deg, var(--accent, #ffb347) 0%, #ffcb97 100%);
   color: #3d2101;
@@ -47,6 +48,7 @@
   pointer-events: none;
 }
 
+/* Button sizes */
 .av-btn-large {
   padding: 1em 2.5em;
   font-size: 1.11em;
