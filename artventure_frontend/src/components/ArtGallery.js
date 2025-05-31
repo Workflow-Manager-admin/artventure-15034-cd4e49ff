@@ -88,7 +88,7 @@ function GalleryCard({ img, title, artist }) {
       }}>
       <div style={{
         width: "100%",
-        aspectRatio: "1/1",
+        aspectRatio: 1,
         overflow: "hidden"
       }}>
         <img src={img}
