@@ -100,6 +100,7 @@ function GalleryCard({ img, title, artist }) {
             objectPosition: "center",
             transition: "transform 0.22s",
             borderRadius: "12px 12px 0 0"
+            // Ensure there is no invalid aspectRatio string
           }} />
       </div>
       <div style={{
