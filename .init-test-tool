@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/artventure-15034-cd4e49ff/artventure_frontend"
+}
