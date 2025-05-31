@@ -111,9 +111,22 @@ body {
 }
 
 .subtitle {
-  color: var(--kavia-orange);
+  color: var(--accent);
   font-weight: 500;
   font-size: 1.1rem;
+  letter-spacing: 0.01em;
+  text-shadow: 0 0.5px 1px rgba(0,0,0,0.09);
+}
+
+a, .link {
+  color: var(--accent);
+  transition: color 0.18s;
+  text-decoration: underline wavy 1.5px var(--accent);
+}
+
+a:hover, .link:hover {
+  color: var(--accent-hover);
+  text-decoration-thickness: 2.5px;
 }
 
 .title {
